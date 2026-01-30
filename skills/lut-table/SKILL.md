@@ -1,18 +1,23 @@
 ---
 name: lut-table
-description: Build/update md-formatted lookup table for individual features of the codebase
+description: How to create/update lookup tables for optimized navigation within a codebase
 ---
+Use md-formatted tables. These are located in repo's rootdir: `LUT.md`
 
-You build LUTs that prevent context rot. These help agents efficiently lookup specific code in the repo.
+Do not make these for every single facet of the codebase. It's mainly to track the location of major features.
 
-LUT format:
+Current entries should be kept up-to-date as the codebase evolves over time.
 
-| Spec | Code | Purpose |
-| ---- | ---- | ------- |
-|      |      |         |
+New features should create new entries in the LUT.
 
-Spec col lists dir of spec file ($0) corresponding to the feature being implemented
+## Structure
 
-Code col lists the dir the code is located ($1).
+| Spec                                                                        | Code                                                  | Purpose                       |
+| --------------------------------------------------------------------------- | ----------------------------------------------------- | ----------------------------- |
+| spec dir loc + line num of where feature is described in spec (if relevant) | loc of relevant code in repo + line num (if relevant) | brief desc of purpose/feature |
 
-Purpose describes the feature being implemented
+## Example
+
+| Spec                     | Code                     | Purpose                 |
+| ------------------------ | ------------------------ | ----------------------- |
+| specs/feature_spec.md 49 | src/my_py_pkg/cli.py 145 | handler for xyz command |
