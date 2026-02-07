@@ -1,6 +1,7 @@
 ---
 name: lang-explain
 description: Concisely describe the core fundamentals of a specific coding/programming language
+disable-model-invocation: true
 ---
 
 ## Important

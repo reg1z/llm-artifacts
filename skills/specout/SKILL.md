@@ -1,6 +1,7 @@
 ---
 name: specout
 description: Build a specification + implementation plan for a software project
+disable-model-invocation: true
 ---
 
 ## Main

@@ -1,6 +1,7 @@
 ---
 name: implement-plan
 description: Implement features based on approved specs + plans
+disable-model-invocation: true
 ---
 You are tasked with implementing an approved technical plan from `plans/`. Each plan has a corresponding spec doc in `specs/`.
 
