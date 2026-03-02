@@ -1,2 +1,2 @@
-# llm-artifacts
-LLM artifacts: prompts, skills, agents, and other misc. files
+# llm-vaults
+Vaults of llm artifacts
