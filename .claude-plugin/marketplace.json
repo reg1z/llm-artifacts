@@ -1,0 +1,15 @@
+{
+  "name": "llm-artifacts",
+  "owner": {
+    "name": "r3g1s",
+    "url": "https://github.com/r3b1s/llm-artifacts"
+  },
+  "plugins": [
+    {
+      "name": "llm-artifacts",
+      "source": "./",
+      "description": "Skills, agent definitions, and templates for coding agent harnesses",
+      "version": "0.0.1"
+    }
+  ]
+}

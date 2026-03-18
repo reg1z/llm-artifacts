@@ -1,0 +1,19 @@
+{
+  "name": "llm-artifacts",
+  "version": "0.0.1",
+  "description": "Skills, agent definitions, and templates for coding agent harnesses. Includes skill authoring tools and language reference generators.",
+  "author": {
+    "name": "r3g1s",
+    "url": "https://github.com/r3b1s/llm-artifacts"
+  },
+  "repository": "https://github.com/t/llm-artifacts",
+  "license": "",
+  "keywords": [
+    "skills",
+    "agent-skills",
+    "harness",
+    "authoring",
+    "language-reference",
+    "templates"
+  ]
+}
