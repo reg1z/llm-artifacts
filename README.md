@@ -1,2 +1,2 @@
-# llm-vaults
-Vaults of llm artifacts
+# llm-artifacts
+Skills, agent definitions, commands, etc.
