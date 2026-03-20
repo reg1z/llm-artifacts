@@ -1,10 +1,11 @@
 ---
 name: author-skillctl
-description: Create/author/make/add a skillctl skill to an installed git repository
+description: Create/Edit/Read a skillctl skill in an installed git repository
 ---
 Create new skill in ~/.config/skillctl/repos/$ARGUMENTS
 
-Use author-harness-skill to author this skill.
+Use author-harness-skill to author/edit this skill.
+- DO NOT edit project-local skills when doing so. Solely edit skills under ~/.config/skillctl/repos.
 
 Related Knowledge:
 - skillctl is a CLI tool for centrally managing agent skills by cloning git repos and symlinking/importing their contents.

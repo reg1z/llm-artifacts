@@ -12,7 +12,7 @@ metadata:
 
 # Skill Authoring
 
-Write skills that conform to the [Agent Skills](https://agentskills.io/) open standard.
+Write and edit skills that conform to the [Agent Skills](https://agentskills.io/) open standard.
 
 ## Workflow
 
